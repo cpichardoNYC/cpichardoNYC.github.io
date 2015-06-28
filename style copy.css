@@ -1,0 +1,103 @@
+body {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	font-weight: 800;
+} 
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+  color: #000000;
+  border-bottom-color: #fffebb;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+  width: 500px;
+} 
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+  float:left;
+  width: 20%;
+  height: 1em;
+  line-height: 1em;
+}
+
+nav {
+	font-size: 1em;
+ 	float: left;
+}
+
+nav a { 
+  text-decoration: none;
+  color: black;
+  margin: 1.8em;
+}
+
+section {
+  background: #FFFFFF;
+  color: #000000;
+  overflow: auto;
+}
+
+#pictures {
+  overflow: #fffebb;
+    background: #222;
+  color: #fff;
+}
+
+div {
+  font-size: 1.2em;
+  width: 46%;
+  padding: 2%;
+  display: inline-block;
+}
+
+#hero{
+  width: 44%;
+  padding: 1;
+  margin: 1.2;
+  display: inline-block;
+  float: none;
+}
+
+#hero2{
+  width: 44%;
+  padding: 1;
+  margin: 1.2;
+  display: inline-block;
+  float: none;
+}
+
+#about{
+  float: left;
+  text-align: center;
+}
+
+#services{
+  float: right;
+  text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+  clear: both;
+}
